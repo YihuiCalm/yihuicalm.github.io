@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park, advised by [Dr. Sahil Shah](https://sahilshah21.weebly.com/). My research sits at the intersection of **neuromorphic computing**, **asynchronous VLSI design**, and **computer architecture** — I build hardware that thinks like the brain.
+I am a Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park, advised by [Dr. Sahil Shah](https://ece.umd.edu/clark/faculty/1398/Sahil-Shah). My research sits at the intersection of **neuromorphic computing**, **asynchronous VLSI design**, and **computer architecture** — I build hardware that thinks like the brain.
 
 Specifically, I am designing a fully asynchronous neuromorphic processor with localized synaptic memory, a hybrid network-on-chip for scalable spike routing, and a 3D stacking strategy to push neuron density beyond what 2D silicon allows. I care about the full stack: from transistor-level timing closure to system-level integration.
 
