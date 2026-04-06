@@ -205,7 +205,6 @@ imagemagick:
 enable_tooltips: false
 enable_darkmode: true
 enable_navbar_social: false
-enable_project_categories: true
 enable_medium_zoom: true
 enable_progressbar: true
 enable_video_embedding: false
