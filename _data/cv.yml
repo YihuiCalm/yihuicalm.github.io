@@ -1,189 +1,146 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Yihui Wang
+  label: Ph.D. Student
+  email: yihuiw@umd.edu
+  location: College Park, MD
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park. Building fully asynchronous neuromorphic processors — from transistor-level timing closure to system-level 3D integration.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: YihuiCalm
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: yihuiwang1997
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Maryland, College Park
+        location: College Park, MD
+        url: https://ece.umd.edu/
+        area: Electrical Engineering
+        studyType: Ph.D.
+        start_date: 2024-09
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Dr. Sahil Shah"
+          - "Research focus: Asynchronous neuromorphic processor design, network-on-chip architecture, 3D integration"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: George Washington University
+        location: Washington, DC
+        url: https://www.gwu.edu/
+        area: Electrical Engineering
+        studyType: M.S.
+        start_date: 2021-09
+        end_date: 2023-12
         highlights:
-          - Description 1.
-          - Description 2.
+          - "FPGA-based spiking neural network implementation"
+          - "Digital VLSI design and ASIC tapeout"
+
+      - institution: Yanshan University
+        location: Qinhuangdao, China
+        area: Photoelectron Information Science and Engineering
+        studyType: B.Eng.
+        start_date: 2016-09
+        end_date: 2020-06
+        highlights:
+          - "Embedded systems and digital signal processing"
+          - "Graduation thesis: Gesture Identification CNN on Edge Device"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Shah Lab, University of Maryland
+        position: Graduate Research Assistant
+        location: College Park, MD
+        url: https://sites.google.com/umd.edu/shahlab
+        start_date: 2024-09
+        end_date: present
+        summary: Designing a fully asynchronous neuromorphic computing system targeting ultra-low-power edge inference and brain-scale neural emulation.
         highlights:
-          - Relativity
-          - Description 2.
+          - "Designed asynchronous LIF neuron core with localized synaptic SRAM in TSMC 28nm"
+          - "Architected hybrid async NoC (binary tree clusters + linear spine), achieving 10× latency reduction and 30% routing area savings"
+          - "Taped out and silicon-verified async AER transceiver in TSMC 65nm: 33 MEvent/s, 435 fJ/event"
+          - "Developed automated async timing closure methodology within Cadence Genus/Innovus"
+          - "Investigating 3D stacking of neuromorphic core tiers via TSVs"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: ADAM Lab, George Washington University
+        position: Graduate Research Assistant
+        location: Washington, DC
+        start_date: 2023-09
+        end_date: 2024-09
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Implemented Izhikevich spiking neuron network in 16-bit fixed-point on Xilinx FPGA"
+          - "Designed pipelined and multiplexed compute units for scalable on-chip SNN deployment"
+          - "Modeled hardware-efficient synapse and neuron behavior with cortical cell parameters"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "An Ultra-Low-Power Synthesizable Asynchronous AER Encoder for Neuromorphic Edge Devices"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Yihui Wang
+          - Sung-Yen Peng
+          - Sahil Shah
+        publisher: IEEE MWSCAS
+        releaseDate: 2026
+        summary: "Submitted, under review. Asynchronous AER transceiver fabricated and silicon-verified in 65nm CMOS using a fully synthesizable standard-cell flow."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Projects:
+      - name: "EEG Signal Encoder and SNN SoC"
+        url: https://github.com/YihuiCalm/Blink-Twice-For-Help
+        summary: "2-4-4-2 SNN for real-time EEG blink-state classification, integrated with analog LNA and delta-modulation encoder. 106.5 µW total power at 300 Hz. Synthesis and PnR in SkyWater 130nm."
+        start_date: 2025-05
+        end_date: 2025-05
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - name: "Neural Spike Detection and Sorting Circuit"
+        url: https://github.com/YihuiCalm/Neural_Spike_Detection_and_Sorting_Circuit
+        summary: "6-channel neural front-end with band-pass filtering, Schmitt Trigger detection, Sample-and-Hold, and Winner-Take-All circuits. 1118.2 µm² area, 23 mW peak power in SkyWater 130nm."
+        start_date: 2024-12
+        end_date: 2024-12
+
+      - name: "MIPS32 Pipelined CPU"
+        url: https://github.com/YihuiCalm/MIPS32_Pipeline_CPU_Chip_Design
+        summary: "5-stage pipelined MIPS32 CPU with hazard resolution. Synthesis with scan-chain insertion (Synopsys DC), PnR at 50 MHz on AMI 0.5 µm CMOS (Cadence Innovus)."
+        start_date: 2023-11
+        end_date: 2023-11
+
+      - name: "Digital Design Flow Automation"
+        url: https://github.com/YihuiCalm/Digital_Design_Flow
+        summary: "Open-source Tcl/Shell automation scripts for Cadence Xcelium, Genus, and Innovus digital design workflows."
+        start_date: 2024
+        end_date: present
+
+      - name: "Izhikevich Neuron FPGA"
+        url: https://github.com/YihuiCalm/IZ_Neuron_FPGA
+        summary: "FPGA implementation of the Izhikevich spiking neuron model in Verilog."
+        start_date: 2024
+        end_date: 2024
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: VLSI Design
+        level: Advanced
+        icon: fa-solid fa-microchip
+        keywords: "RTL Design, Logic Synthesis, Place & Route, STA, CDC, ATPG/DFT, DRC/LVS, Asynchronous Circuit Design"
+
+      - name: EDA Tools
+        level: Advanced
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Cadence Genus, Innovus, Virtuoso, Xcelium; Synopsys Design Compiler; Siemens Calibre; Xilinx Vivado"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Verilog, SystemVerilog, Tcl, Python, C/C++, Shell, MATLAB"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
         summary: "Fluent"
 
+      - name: Mandarin
+        summary: "Native speaker"
+
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Neuromorphic Computing
+        icon: fa-solid fa-brain
+        keywords: "Spiking Neural Networks, Asynchronous VLSI, Network-on-Chip, 3D Integration, Brain-Machine Interfaces"
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Dr. Sahil Shah
+        icon: fa-solid fa-user
+        reference: "Assistant Professor, ECE, University of Maryland. Ph.D. advisor. Expertise in low-power mixed-signal systems, reconfigurable neural networks, and brain-machine interfaces."
