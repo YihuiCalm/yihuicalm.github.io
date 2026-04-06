@@ -1,14 +1,14 @@
+# _data/repositories.yml
+# Updated for YihuiCalm
+
 github_users:
-  - torvalds
-  - alshedivat
+  - YihuiCalm
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - YihuiCalm/Digital_Design_Flow
+  - YihuiCalm/IZ_Neuron_FPGA
+  - YihuiCalm/Blink-Twice-For-Help
+  - YihuiCalm/MIPS32_Pipeline_CPU_Chip_Design
+  - YihuiCalm/Neural_Spike_Detection_and_Sorting_Circuit
