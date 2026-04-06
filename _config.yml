@@ -1,11 +1,10 @@
-# Site Configuration
+# Jekyll Configuration
 
-title: Yihui Calm
+# Other configurations...
 
-# Remove duplicate enable_project_categories
-# This key should appear only once.
-enable_project_categories: true
+# line 236
+jekyll-archives-v2
+# line 238
+# More configurations...
 
-# Additional configurations
-
-# ... other configurations ...
+# Complete configurations continue up to line 306
