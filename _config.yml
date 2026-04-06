@@ -1,9 +1,11 @@
-# Site settings
+# Site Configuration
 
-# Project settings
-projects:
-  enable_project_categories: true  # Only one instance in this section
+title: Yihui Calm
 
-# Features settings
-features:
-  # Other feature settings go here
+# Remove duplicate enable_project_categories
+# This key should appear only once.
+enable_project_categories: true
+
+# Additional configurations
+
+# ... other configurations ...
