@@ -443,6 +443,13 @@ ninja.data = [{
           window.open("mailto:%79%69%68%75%69%77@%75%6D%64.%65%64%75", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/YihuiCalm", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
