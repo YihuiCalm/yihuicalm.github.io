@@ -83,6 +83,16 @@ cv:
           - "Designed pipelined and multiplexed compute units for scalable on-chip SNN deployment"
           - "Modeled hardware-efficient synapse and neuron behavior with cortical cell parameters"
 
+      - company: Senseonics, Inc.
+        position: Embedded Software Engineering Intern
+        location: Germantown, MD
+        url: https://www.senseonics.com/
+        start_date: 2022-06
+        end_date: 2022-08
+        highlights:
+          - "Python scripts that parse glucose-sensor log downloads and analyze the device's power consumption across operating modes"
+          - "System tests of the new sensor and its PCB with bench instruments; documented firmware test results"
+
     Publications:
       - title: "An Ultra-Low-Power Synthesizable Asynchronous AER Encoder for Neuromorphic Edge Devices"
         authors:
