@@ -4,7 +4,7 @@ cv:
   email: yihuiw@umd.edu
   location: College Park, MD
   image: ""
-  summary: Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park. Building fully asynchronous neuromorphic processors — from transistor-level timing closure to system-level 3D integration.
+  summary: Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park. Energy-efficient neuromorphic hardware, from clockless circuits and sparsity-aware networks-on-chip to silicon; two tapeouts (TSMC 180 nm and 65 nm) as lead digital designer.
 
   social_networks:
     - network: GitHub
@@ -22,8 +22,9 @@ cv:
         start_date: 2024-09
         end_date: present
         highlights:
+          - "GPA 3.81/4.0; expected 2029"
           - "Advisor: Dr. Sahil Shah"
-          - "Research focus: Asynchronous neuromorphic processor design, network-on-chip architecture, 3D integration"
+          - "Research: asynchronous neuromorphic processors, networks-on-chip for spiking neural networks, 3D integration"
 
       - institution: George Washington University
         location: Washington, DC
@@ -33,8 +34,8 @@ cv:
         start_date: 2021-09
         end_date: 2023-12
         highlights:
-          - "FPGA-based spiking neural network implementation"
-          - "Digital VLSI design and ASIC tapeout"
+          - "GPA 3.83/4.0"
+          - "FPGA-based spiking neural network implementation; digital ASIC design flow"
 
       - institution: Yanshan University
         location: Qinhuangdao, China
@@ -46,6 +47,17 @@ cv:
           - "Embedded systems and digital signal processing"
           - "Graduation thesis: Gesture Identification CNN on Edge Device"
 
+    Silicon Tapeouts:
+      - name: "SpineLink: 32-neuron asynchronous spiking-neural-network chip (TSMC 180 nm, 1 mm² die)"
+        url: /projects/spinelink_tapeout/
+        start_date: 2026-06
+        end_date: 2026-06
+        summary: "Lead digital designer. Clockless tree-spine NoC of 18 bundled-data micropipeline routers, 1,152 SPI-programmed synapses, asynchronous SerDes chip-to-chip links; RTL to GDS in Genus/Innovus, integration with 32 analog LIF neurons in Virtuoso, full-chip Calibre DRC/LVS. Post-layout: 3.8 ns and 17 pJ per router hop, 412 fJ per spike, 1.9 µW digital static power."
+      - name: "Synthesizable asynchronous AER encoder (TSMC 65 nm, TSRI shuttle)"
+        start_date: 2025-05
+        end_date: 2025-05
+        summary: "RTL, PnR, pad-frame routing, sign-off and bring-up. 8-event bundled-data encoder built from standard cells only. Measured on silicon: 33 MEvent/s, 50 ns latency, 435 fJ/event, 8.7 µW. Published at IEEE MWSCAS 2026."
+
     Experience:
       - company: Shah Lab, University of Maryland
         position: Graduate Research Assistant
@@ -53,13 +65,13 @@ cv:
         url: https://sites.google.com/umd.edu/shahlab
         start_date: 2024-09
         end_date: present
-        summary: Designing a fully asynchronous neuromorphic computing system targeting ultra-low-power edge inference and brain-scale neural emulation.
+        summary: Lead digital designer on the two tapeouts above.
         highlights:
-          - "Designed asynchronous LIF neuron core with localized synaptic SRAM in TSMC 28nm"
-          - "Architected hybrid async NoC (binary tree clusters + linear spine), achieving 10× latency reduction and 30% routing area savings"
-          - "Taped out and silicon-verified async AER transceiver in TSMC 65nm: 33 MEvent/s, 435 fJ/event"
-          - "Developed automated async timing closure methodology within Cadence Genus/Innovus"
-          - "Investigating 3D stacking of neuromorphic core tiers via TSVs"
+          - "MURI program: contribute to the ARO MURI on hybrid artificial-living neural networks (lead: Prof. Wolfgang Losert), which seeks to identify the learning rules of biological neurons and replicate them in silicon spiking networks"
+          - "Hardware readout: spiking-neural-network decoder on FPGA that classifies responses of a simulated neuron culture and identifies the most informative readout timescale (9.2 pJ per synaptic op; npj manuscript under review)"
+          - "NoC exploration: evaluated five network-on-chip topologies against the sparse, event-driven traffic of spiking neurons with closed-form models and synthesized routers; the resulting tree-spine SpineLink NoC needs 2.9× less router area than a 2-D mesh at 1,024 neurons and 17 vs 48 nJ per broadcast spike"
+          - "Clockless methodology: bundled-data micropipelines with automated timing closure (set_max_delay iteration, SDF simulation) in a standard Genus/Innovus flow, so power scales with neural activity; proven on 65 nm silicon, open source"
+          - "Current work: 28 nm asynchronous LIF core with local SRAM synapses and 3-D neuron stacking"
 
       - company: ADAM Lab, George Washington University
         position: Graduate Research Assistant
@@ -75,11 +87,29 @@ cv:
       - title: "An Ultra-Low-Power Synthesizable Asynchronous AER Encoder for Neuromorphic Edge Devices"
         authors:
           - Yihui Wang
-          - Sung-Yen Peng
+          - Sheng-Yu Peng
           - Sahil Shah
         publisher: IEEE MWSCAS
         releaseDate: 2026
-        summary: "Submitted, under review. Asynchronous AER transceiver fabricated and silicon-verified in 65nm CMOS using a fully synthesizable standard-cell flow."
+        url: https://arxiv.org/abs/2604.05313
+        summary: "Accepted. 8-event asynchronous AER encoder fabricated in 65 nm CMOS with a purely standard-cell flow; measured 33 MEvent/s, 50 ns latency, 435 fJ/event."
+      - title: "The Choice of Timescales in Hybrid Biological-Artificial Networks"
+        authors:
+          - Jake A. Miller
+          - Yihui Wang
+          - Ching-Yi Lin
+          - Sahil Shah
+          - Wolfgang Losert
+        publisher: npj Unconventional Computing
+        releaseDate: 2026
+        summary: "Under review. Simulated biological network plus an FPGA spiking decoder; characterizes the optimal readout timescale for a hybrid computing architecture."
+      - title: "SpineLink: A Fully Asynchronous Tree-Spine NoC with In-Network Broadcast and Convergecast for Multi-Chip Neuromorphic Systems"
+        authors:
+          - Yihui Wang
+          - Sahil Shah
+        publisher: IBM IEEE CAS/EDS AI Compute Symposium
+        releaseDate: 2026
+        summary: "Poster, accepted."
 
     Projects:
       - name: "EEG Signal Encoder and SNN SoC"
@@ -88,11 +118,11 @@ cv:
         start_date: 2025-05
         end_date: 2025-05
 
-      - name: "Neural Spike Detection and Sorting Circuit"
-        url: https://github.com/YihuiCalm/Neural_Spike_Detection_and_Sorting_Circuit
-        summary: "6-channel neural front-end with band-pass filtering, Schmitt Trigger detection, Sample-and-Hold, and Winner-Take-All circuits. 1118.2 µm² area, 23 mW peak power in SkyWater 130nm."
-        start_date: 2024-12
-        end_date: 2024-12
+      - name: "LIF Spiking Decoder on FPGA"
+        url: https://github.com/YihuiCalm/LIF_Decoder_For_Reservior_Computing_on_FPGA
+        summary: "811-input, 10-neuron LIF decoder on a Spartan-7 at 100 MHz: 97.9% accuracy, 9.2 pJ per synaptic operation, 1,323 LUTs, 0 DSPs; bit-accurate Python model and self-checking testbenches."
+        start_date: 2026-01
+        end_date: 2026-09
 
       - name: "MIPS32 Pipelined CPU"
         url: https://github.com/YihuiCalm/MIPS32_Pipeline_CPU_Chip_Design
@@ -102,8 +132,8 @@ cv:
 
       - name: "Digital Design Flow Automation"
         url: https://github.com/YihuiCalm/Digital_Design_Flow
-        summary: "Open-source Tcl/Shell automation scripts for Cadence Xcelium, Genus, and Innovus digital design workflows."
-        start_date: 2024
+        summary: "Open-source RTL-to-GDS Tcl flow (Genus, Innovus, Xcelium) with post-synthesis and post-route SDF simulation for TSMC 180/65/28 nm and SkyWater 130 nm; used for both tapeouts and by lab members (18 GitHub stars)."
+        start_date: 2025
         end_date: present
 
       - name: "Izhikevich Neuron FPGA"

@@ -1,5 +1,28 @@
 ---
 ---
+@article{miller2026timescales,
+  title={The Choice of Timescales in Hybrid Biological-Artificial Networks},
+  author={Miller, Jake A. and Wang, Yihui and Lin, Ching-Yi and Shah, Sahil and Losert, Wolfgang},
+  journal={npj Unconventional Computing},
+  year={2026},
+  note={Under review},
+  selected={true},
+  preview={lif_decoder_demo.gif},
+  code={https://github.com/YihuiCalm/LIF_Decoder_For_Reservior_Computing_on_FPGA},
+  abstract={Biological neural networks and artificial neural networks have their own strengths and weaknesses. Hybrid architectures could combine the strengths of both while mitigating the weaknesses, so we have developed a framework for exploring hybrid architectures. We have created a Simulated Biological Neural Network (SBNN) to mimic real all-optical biocomputing experiments. Then, on hardware, we have developed an FPGA-based Spiking Neural Network that can serve as an efficient decoder of real neural responses. We observe the capacity of SBNNs to spatiotemporally transform the MNIST dataset. We characterize an optimal timescale for the classification of digits in a hybrid computing architecture. The animation shows the FPGA decoder (811 inputs, 10 LIF neurons, 100 MHz on a Spartan-7) classifying the simulated culture's responses in real time at 9.2 pJ per synaptic operation.}
+}
+
+@inproceedings{wang2026spinelink,
+  title={SpineLink: A Fully Asynchronous Tree-Spine NoC with In-Network Broadcast and Convergecast for Multi-Chip Neuromorphic Systems},
+  author={Wang, Yihui and Shah, Sahil},
+  booktitle={IBM IEEE CAS/EDS AI Compute Symposium (AICS)},
+  year={2026},
+  note={Poster, accepted},
+  selected={true},
+  preview={spinelink_layout.jpg},
+  abstract={SpineLink is a clockless hybrid network-on-chip for spiking neural networks: binary-tree clusters of 3-port routers hang off a bidirectional linear spine of 4-port routers, so broadcast and convergecast happen inside the network and chips chain over 3-wire asynchronous serial links. At 1,024 neurons the topology needs the smallest router area of five candidates (6.45 mm^2, 2.9x below a 2-D mesh) at a post-layout 3.8-5.8 ns and 17-32 pJ per hop. The preview shows the 32-neuron test chip taped out in TSMC 180 nm in June 2026 (1 mm^2 die): the 0.36 mm^2 digital core with 18 routers and 1,152 SPI-programmed synapses, integrated with 32 analog LIF neurons.}
+}
+
 @inproceedings{wang2026aer,
   title={An Ultra-Low-Power Synthesizable Asynchronous AER Encoder for Neuromorphic Edge Devices},
   author={Wang, Yihui and Peng, Sheng-Yu and Shah, Sahil},
@@ -8,6 +31,7 @@
   note={Accepted},
   selected={true},
   pdf={aer_mwscas_2026.pdf},
+  arxiv={2604.05313},
   preview={layout.drawio.png, aer_measure.gif},
-  abstract={An 8-event AER prototype is fabricated in 65 nm CMOS technology utilizing a purely digital standard-cell flow. Post-fabrication silicon measurements validate the design.}
+  abstract={An 8-event AER prototype is fabricated in 65 nm CMOS technology utilizing a purely digital standard-cell flow. Post-fabrication silicon measurements validate the design: 33 MEvent/s peak throughput, 50 ns average latency, 435 fJ per event and 8.7 uW total power.}
 }
