@@ -178,6 +178,12 @@ layout: default
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}
+              {% elsif section_entries.size > 0 and section_entries.first.name %}
+                {% assign entries = section_entries %}
+                {% include cv/projects.liquid %}
+              {% elsif section_entries.size > 0 and section_entries.first.title %}
+                {% assign entries = section_entries %}
+                {% include cv/projects.liquid %}
               {% else %}
                 <!-- Generic section -->
                 {% for entry in section_entries %}
