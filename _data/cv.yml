@@ -22,7 +22,7 @@ cv:
         start_date: 2024-09
         end_date: present
         highlights:
-          - "GPA 3.81/4.0; expected 2029"
+          - "GPA 3.81/4.0; expected graduation May 2029"
           - "Advisor: Dr. Sahil Shah"
           - "Research: asynchronous neuromorphic processors, networks-on-chip for spiking neural networks, 3D integration"
 
@@ -151,6 +151,12 @@ cv:
         summary: "FPGA implementation of the Izhikevich spiking neuron model in Verilog."
         start_date: 2024
         end_date: 2024
+
+    Awards:
+      - title: NSF Student Travel Grant, IEEE MWSCAS 2026
+        date: 2026
+        awarder: NSF / MWSCAS 2026 Student Travel Grant Committee
+        summary: "Competitive travel award supporting in-person presentation of the AER encoder paper."
 
     Skills:
       - name: VLSI Design
