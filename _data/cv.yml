@@ -102,7 +102,7 @@ cv:
         publisher: IEEE MWSCAS
         releaseDate: 2026
         url: https://ieeexplore.ieee.org/abstract/document/11680645
-        summary: "Accepted. 8-event asynchronous AER encoder fabricated in 65 nm CMOS with a purely standard-cell flow; measured 33 MEvent/s, 50 ns latency, 435 fJ/event."
+        summary: "Published. 8-event asynchronous AER encoder fabricated in 65 nm CMOS with a purely standard-cell flow; measured 33 MEvent/s, 50 ns latency, 435 fJ/event."
       - title: "The Choice of Timescales in Hybrid Biological-Artificial Networks"
         authors:
           - Jake A. Miller
