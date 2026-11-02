@@ -101,7 +101,7 @@ cv:
           - Sahil Shah
         publisher: IEEE MWSCAS
         releaseDate: 2026
-        url: https://arxiv.org/abs/2604.05313
+        url: https://ieeexplore.ieee.org/abstract/document/11680645
         summary: "Accepted. 8-event asynchronous AER encoder fabricated in 65 nm CMOS with a purely standard-cell flow; measured 33 MEvent/s, 50 ns latency, 435 fJ/event."
       - title: "The Choice of Timescales in Hybrid Biological-Artificial Networks"
         authors:
